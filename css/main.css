@@ -1,0 +1,217 @@
+.nav a {
+	display: block;
+	text-decoration: none;
+	color: #5a5a5a;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 1.5em;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+	float: left;
+}
+
+.nav {
+	margin: 5px 0px;
+}
+
+body {
+	font-family: 'Poiret One', arial, cursive;
+	font-weight: bold;
+	color: black;
+	margin: 0 auto;
+}
+
+.up {
+	position: relative;
+	top: -35px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.mainframe {
+	position: relative;
+	top: -60px;
+	padding: 5px;
+	margin: 50px 120px 0 120px;
+}
+
+.container {
+	margin: 10px 10px;
+}
+
+header {
+	position: relative;
+	top: -20px;
+	padding: 0px 25px 25px 85px;
+	font-family: 'Poiret One', cursive;
+	font-variant: small-caps;
+	font-size: 175%;
+	font-weight: bold;
+}
+
+footer {
+	clear: both;
+	position: relative;
+	bottom: -70px; 
+	margin-left: 40px;
+	color: #132020;
+}
+
+ul li {
+	list-style-type: none;
+	display: block;
+}
+
+.contact a:hover {
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.title {
+	font-variant: small-caps;
+	font-size: 135%;
+}
+
+input,textarea {
+	font: 13px arial, sans-serif;
+}
+
+input:focus , textarea:focus {
+	border: 1px solid lightblue;
+}
+
+.portfolio img:hover {
+	transform: scale(1.45,1.45);	
+	margin: 5px auto;
+}
+
+.portfolio img {
+	max-height: 320px;
+}
+
+.portfolio .thumbnail {
+	max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio {
+	font-variant: small-caps;
+	font-size: 135%;
+	text-align: center;
+	margin: 20px;
+}
+
+.portfolio p {
+	margin-bottom: 5px;
+}
+
+/*
+.webportfolio {
+	font-variant: small-caps;
+	font-size: 135%;
+	text-align: center;
+	margin: 20px;
+}
+
+.webportfolio .thumbnail {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.webwork {
+	text-align: left;
+	margin: 10px;
+}
+*/
+
+#homepage {
+	text-align: center;
+	font-size: 200%;
+	font-variant: small-caps;
+}
+
+#homepage img {
+	opacity: 0.5;
+	width: 70%;
+	position: relative;
+}
+
+#homepage p {
+	position: relative;
+	bottom: 350px;
+	font-size: 300%;
+}
+
+.usertestimonial  p {
+	font: 14px arial, sans-serif;
+	padding: 5px 0 3px 0;
+}
+	
+.contact {
+	font: 17px;
+	position: relative;
+	margin-left: 100px;
+}
+
+.small {
+	font-size: 14px;
+}
+
+.largefont {
+	font-size:150%;
+}
+
+.about {
+	font: 13px arial, sans-serif;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+	float: left;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
