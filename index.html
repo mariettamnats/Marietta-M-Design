@@ -1,58 +1,131 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="en">
 <head>
-  
-  <title>Marietta M. Design</title>
+    <title>Marietta M. Design - Landscape Design</title>
 
 		<meta charset="utf-8" />
 		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+		<link href='https://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/styles.css">
 		
-	<link rel="stylesheet" href="css/reset.css">
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">  
-	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/main.css">
-    
 </head>
 
 <body>
-  
-    <div class="nav">
-	  <div class="container">
-        <ul class="pull-left">
-          <li><a href="portfolio.html">Landscape Portfolio</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="about.html">About</a></li>
-          <li><a href="testimonials.html">Contact</a></li>
-          <!--<li><a href="contact.html">Testimonials</a></li>-->
-        </ul>
-	  </div>
-    </div>
-	
-	  <div class="up">
-		<hr>
-	  </div>
+
+<nav class="topbar">
+	<div id="bottombar">	
+		<a class="navbar-brand">
+			<img src="images/logo.png" />
+		</a>
 		
-	  <header>    
-		<h1>Marietta M. Design</h1>
-	  </header>
-	  
-	  <div class="up">
-		<hr>
-	  </div>
+		<button class="toggle-nav">☰</button>
 		
-		<div id="homepage">
-			<img src="images/main page photo .jpg" />
-			<p>Landscape Designer</p>
+		<div id="topmenu">
+			<ul class="dropdown">
+				<li class="active"><a href="">home</a></li>
+				<li><a href="">portfolio</a></li>
+				<li><a href="">about</a></li>
+				<li><a href="">contact</a></li>
+			</ul>
 		</div>
 		
-		<footer>
-			<p>&copy; 2015   Marietta M. Design. All rights reserved.</p>
-		</footer>
-		
-  </body>
+	</div>
+</nav>
 
+<div class="container">
+	<div class="row">
+		
+		<div class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
+			<div class="mainframe">
+				<p class="title">Landscape Design at it's Finest</p>
+				<p class="mainp">A good landscape isn't just a pretty back yard, what consitutes a well designed landscape 
+				is the functionality of it, as well as the aesthetics of course.<p>
+				
+				<div class="row">
+				  <div class="point1">
+					<div class="circle1">
+					  <div class="number">1</div>
+					</div>
+					<div class="phrase1">
+					  A landscape needs to be functional
+					</div>
+				  </div>
+				</div>
+
+				<div class="row">
+				  <div class="point2">
+					<div class="circle2">
+					  <div class="number">2</div>
+					</div>
+					<div class="phrase2">
+					  It has to be an extention of the interior spaces
+					</div>
+				  </div>
+				</div>
+
+				<div class="row">
+				  <div class="point3">
+					<div class="circle3">
+					  <div class="number">3</div>
+					</div>
+					<div class="phrase3">
+					  It has to enhance the property
+					</div>
+				  </div>
+				</div>
+
+				<div class="row">
+				  <div class="point4">
+					<div class="circle4">
+					  <div class="number">4</div>
+					</div>
+					<div class="phrase4">
+					  A good landscape will provide opportunities for relaxation and entertaining 
+					</div>
+				  </div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="connect col-lg-1 col-md-1 col-sm-1 col-xs-1">
+			<div class="connect">
+				<ul>
+					<li><a href="https://ca.linkedin.com/in/marietta-mnatsakanian-371a3b21" target="_blank"><img src="images/linkedin.jpg"></a>
+					<li><a href="https://twitter.com/MariettaMnats" target="_blank"><img src="images/twitter.png"></a></li>
+					<li><a href="https://plus.google.com/103177514776558866212" target="_blank"><img src="images/googleplus.png"></a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+ </div>
+
+	
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+	<script type="text/javascript" 
+	src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+	
+<script type="text/javascript">
+
+$(document).ready(function() {
+	$('.toggle-nav').click(function() {
+		$('#topmenu').toggleClass('show');
+	
+	});
+
+});
+
+
+</script>
+	
+</body>
 </html>
+	

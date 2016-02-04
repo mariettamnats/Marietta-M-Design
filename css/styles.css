@@ -1,0 +1,225 @@
+body {
+	font-size: 16px;
+}
+
+.topbar {
+	opacity: 0.8;
+	background-color: #81D8D0;
+	height: 95px;
+	width: 100%;
+}
+
+.navbar-brand img {
+	width: 160px;
+	margin-left: 32px;
+	margin-top: -5px;
+}
+
+#topmenu {
+	float: right;
+	font-variant: small-caps;
+	margin-right: 175px;
+}
+
+#topmenu li {
+	list-style: none;
+	font-weight: bold;
+	font-size: 16px;
+	height: 100%;
+	float: right;
+}
+
+#topmenu a {
+	color: #504A4B;
+	display: block;
+	padding: 34px;
+	height: 95px;
+}
+
+.mainframe {
+	position: relative;
+	top: 15px;
+	left: 52px;
+	margin:20px;
+	width: 95%;
+	float: left;
+}
+
+.title  {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: 'Cabin', sans-serif;
+}
+
+.connect{
+	position: fixed;
+	right: 3px;
+	top: 250px;
+	margin: 0 -90px 0 5px;
+	width: 5%;
+	float: right;
+}
+
+.connect img {
+	width: 35px;
+	height: 35px;
+	padding: 4px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.active li {
+	color: #BDEDFF; 
+}
+
+.break {
+	clear: both;
+}
+
+.toggle-nav {
+	display: none;
+}
+
+.mainp {
+	margin-bottom: 30px;
+}
+
+[class^="point"] {
+	font-weight: bold;
+}
+
+[class^="circle"] {
+	height: 30px;
+	width: 30px;
+	border-radius: 35px;
+	background-color: #9510A1;
+	display: block;
+	position: relative; 
+	margin: -9px;
+	margin-left: 10px;
+}
+
+.number {
+	position: relative;
+	top: 5px;
+	left: 11px;
+	color: white;
+	font-family: helvetica;
+}
+
+[class^="phrase"] {
+	position: relative;
+	bottom: 15px;
+	left: 50px;
+	font-family: 'Cabin', sans-serif;
+	font-size: 16px;
+	margin-left: 8px;
+}
+
+@media screen and (max-width: 870px) {
+	.topbar {
+		height: 65px;
+	}
+	
+	.navbar-brand img {
+		width: 110px;
+		position: relative;
+		top: -5px;
+		left: -5px;
+	}
+	
+	#topmenu {
+		margin-right: 55px;
+	}
+	
+	#topmenu a {
+		font-size: 0.9em;
+		padding: 20px 25px;
+		height: 65px;
+	}
+
+	.connect {
+		margin: 12px;
+	}
+	
+	.mainframe {
+		margin-right: 40px;
+	}
+}
+
+@media screen and (min-width: 602px) {
+	.connect {
+		margin: 1px;
+		margin-right: 20px;
+	}
+	
+	.mainframe {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 601px) {
+	.topbar {
+		height: 51px;
+	}
+	
+	.navbar-brand img {
+		position: relative;
+		top: -8px;
+		left: -30px;
+		width: 94px;
+	}
+
+	.connect {
+		margin: 10px;
+		margin-right: 20px;
+		position: fixed;
+		top: 115px;
+	}
+	
+	.toggle-nav {
+		width: 51px;
+		height: 51px;
+		border: none;
+		background-color: #81D8D0;
+		font-weight: bold;
+		font-size: 1.8em;
+		float: right;
+		padding-top: 1px;
+		display: inline;
+		position: relative;
+	}
+	
+	#topmenu {
+		display: none;
+		width: 100%;
+	}
+	
+	#topmenu li  {
+		width: 100%;
+	}
+	
+	#topmenu a {
+		background-color: #F0F5FF;
+		display: block;
+		padding-left: 40px;
+		font-size: 0.9em;
+		height: 35px;
+	}
+	
+	.mainframe {
+		margin-left: -25px;
+		margin-top: 20px;
+		margin-right: 30px;
+	}
+	
+	.title {
+		font-size: 20px;
+	}
+}
