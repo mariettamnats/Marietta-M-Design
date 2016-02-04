@@ -44,7 +44,7 @@
 			<div class="mainframe">
 				<p class="title">Landscape Design at it's Finest</p>
 				<p class="mainp">A good landscape isn't just a pretty back yard, what consitutes a well designed landscape 
-				is the functionality of it, as well as the aesthetics of course.<p>
+				is typically the functionality of it, as well as the aesthetics of course.</p>
 				
 				<div class="row">
 				  <div class="point1">
@@ -63,7 +63,7 @@
 					  <div class="number">2</div>
 					</div>
 					<div class="phrase2">
-					  It has to be an extention of the interior spaces
+					  It has to be an extension of the interior spaces
 					</div>
 				  </div>
 				</div>
@@ -116,11 +116,16 @@
 <script type="text/javascript">
 
 $(document).ready(function() {
+
 	$('.toggle-nav').click(function() {
 		$('#topmenu').toggleClass('show');
-	
 	});
 
+	$('div.remove')
+		.contents()
+		.filter(function() {
+		return this.nodeType == Node.TEXT_NODE;
+	}).wrap('<p/>');
 });
 
 
